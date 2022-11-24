@@ -79,24 +79,3 @@ char	*get_next_line(int fd)
 	line = stop_line(&tmp[fd]);
 	return (line);
 }
-
-// int main ()
-// {
-// 	int fd = open("/dev/random", O_RDWR);
-// // 	// printf("1 = %s\n",get_next_line(fd));
-// // 	// printf("2 = %s\n",get_next_line(fd));
-// // 	// printf("3 = %s\n",get_next_line(fd));
-// // 	// printf("4 = %s\n",get_next_line(fd));
-// // 	// printf("5 = %s\n",get_next_line(fd));
-// // 	// printf("6 = %s\n",get_next_line(fd));
-// // 	// printf("7 = %s\n",get_next_line(fd));
-// 	char *line;
-// 	line = get_next_line(fd);
-// 	while(line)
-// 	{
-// 		printf("%s", line);
-// 		free(line);
-// 		line = get_next_line(fd);
-// 	}
-// // 	// while (1);
-// }
